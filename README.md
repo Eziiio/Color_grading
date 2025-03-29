@@ -1,16 +1,14 @@
 # 🎨 Color Grading in Digital Images
 
-This project applies **color grading** to images using **Python & OpenCV**. It includes a LUT-based transformation to enhance the visuals, making them look more cinematic and aesthetically pleasing. 
+This project applies **color grading** to images using **Python & OpenCV** to enhance the visuals, making them look more cinematic and aesthetically pleasing. 
 
 ## 📂 Project Structure
 ```
 📂 Color_Grading/
 │── 📂 scripts/          # Python scripts for image grading
 │   │── image_grading.py
-│   │── lut_loader.py    # Loads LUT (.cube) files
 │── 📂 images/           # Input images
 │── 📂 output/           # Processed images
-│── 📂 lut/              # LUT files (.cube)
 │── requirements.txt     # Dependencies
 │── README.md            # Project documentation
 ```
@@ -36,13 +34,6 @@ python scripts/image_grading.py
 📍 **Example**:
 - **Input:** `images/sample.jpg`
 - **Output:** `output/graded_sample.jpg`
-
----
-## 🎨 Using LUTs
-LUT files (`.cube`) are stored in `lut/`. To use a LUT, update:
-```python
-lut_path = "../lut/sea_shore_lut.cube"  # Replace with your LUT
-```
 
 ---
 ## 📜 License
